@@ -805,7 +805,7 @@ Highlight the core novelty. Ensure the connection logic makes sense."""
 ---
 
 ## 模型选择
-我们从公开网站 [arena.ai](https://arena.ai/zh/leaderboard/text/creative-writing) 上获取了Creative Writing能力排名前10的模型与具体版本，该榜单结果与调研群体的日常使用选择高度契合。在科研场景中，日常的 idea 交互与论文写作，主力模型仍为 Gemini-3-pro/flash；在实验代码编写场景下，更多使用 Claude-4.5 系列模型，以及 Cursor 内置的 Composer 模型。此外，从实际体验来看，GPT 5.1 与 GPT 5.2 的表现较为一般，目前对gpt系列模型的使用频率已大幅下降。
+我们从公开网站 [arena.ai](https://arena.ai/zh/leaderboard/text/creative-writing) 上获取了Creative Writing能力排名靠前的模型与具体版本，该榜单结果与调研群体的日常使用选择高度契合。与年初的情况不同，目前 Gemini系列模型在写作方面已经不具备显著优势（阿谀奉承味较足），而 GPT 系列的语言表达较为僵硬。整体来说 Claude 系列模型在语言表达和润色上具备明显的优势。预算充足的情况下，推荐使用 Claude Fable 5；同时也推荐使用 opus 4.6与 4.7；若科学上网受限或者预算较低的情况下，推荐使用 qwen3.8-max。
 
 ![模型排名](images/model-rank.png)
 
